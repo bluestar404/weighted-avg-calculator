@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "total_days": 105,
+    "daily_study_hours": 6,
+    "max_parallel_subjects": 2
+  },
+  "subjects": [
+    {
+      "id": "ALG",
+      "name": "Algorithms",
+      "subtopics": [
+        {
+          "id": "ALG_1",
+          "name": "Why Study & Asymptotic",
+          "hours_required": 9.95,
+          "pyqs": 21,
+          "prerequisites": []
+        },
+        {
+          "id": "ALG_2",
+          "name": "Time Complexity of Recursive Programs",
+          "hours_required": 3.67,
+          "pyqs": 34,
+          "prerequisites": ["ALG_1"]
+        },
+        {
+          "id": "ALG_3",
+          "name": "Divide & Conquer (Part 1)",
+          "hours_required": 4.95,
+          "pyqs": 9,
+          "prerequisites": ["ALG_2"]
+        },
+        {
+          "id": "ALG_4",
+          "name": "Max & Min of Numbers",
+          "hours_required": 2.9,
+          "pyqs": 2,
+          "prerequisites": ["ALG_3"]
+        },
+        {
+          "id": "ALG_5",
+          "name": "Divide & Conquer (Part 2)",
+          "hours_required": 6.0,
+          "pyqs": 9,
+          "prerequisites": ["ALG_3"]
+        },
+        {
+          "id": "ALG_6",
+          "name": "Sorting Algorithms",
+          "hours_required": 3.47,
+          "pyqs": 27,
+          "prerequisites": ["ALG_5"]
+        },
+        {
+          "id": "ALG_7",
+          "name": "BFS & DFS",
+          "hours_required": 7.0,
+          "pyqs": 22,
+          "prerequisites": ["ALG_6"]
+        },
+        {
+          "id": "ALG_8",
+          "name": "Shortest Path Algorithms",
+          "hours_required": 5.1,
+          "pyqs": 5,
+          "prerequisites": ["ALG_7"]
+        },
+        {
+          "id": "ALG_9",
+          "name": "Minimum Spanning Tree",
+          "hours_required": 4.87,
+          "pyqs": 33,
+          "prerequisites": ["ALG_8"]
+        },
+        {
+          "id": "ALG_10",
+          "name": "Algorithms More Greedy",
+          "hours_required": 3.67,
+          "pyqs": 5,
+          "prerequisites": ["ALG_9"]
+        },
+        {
+          "id": "ALG_11",
+          "name": "Dynamic Programming",
+          "hours_required": 7.33,
+          "pyqs": 9,
+          "prerequisites": ["ALG_10"]
+        },
+        {
+          "id": "ALG_12",
+          "name": "More Dynamic Programming",
+          "hours_required": 1.43,
+          "pyqs": 3,
+          "prerequisites": ["ALG_11"]
+        }
+      ]
+    }
+  ]
+}
