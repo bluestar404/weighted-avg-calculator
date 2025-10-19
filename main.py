@@ -106,8 +106,8 @@ def compute_subtopic_weights_penalize_depth(
 
 # ------------------------- testing 
 if __name__ == "__main__":
-    INPUT = "syllabus.json"        
-    OUTPUT = "syllabus_weighted_penalized.json"
+    INPUT = "algorithms_weighted.json"        
+    OUTPUT = "algorithms_weighted_penalized.json"
 
     with open(INPUT, "r", encoding="utf-8") as f:
         data = json.load(f)
