@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "total_days": 105,
+    "daily_study_hours": 6,
+    "max_parallel_subjects": 2
+  },
+  "subjects": [
+    {
+      "id": "DSA",
+      "name": "Data Structures",
+      "subtopics": [
+        {
+          "id": "DSA_1",
+          "name": "Linked List",
+          "hours_required": 7.16,
+          "pyqs": 22,
+          "prerequisites": []
+        },
+        {
+          "id": "DSA_2",
+          "name": "Logarithm Basics",
+          "hours_required": 2.18,
+          "pyqs": 6,
+          "prerequisites": []
+        },
+        {
+          "id": "DSA_3",
+          "name": "Asymptotic Notation",
+          "hours_required": 9.58,
+          "pyqs": 6,
+          "prerequisites": ["DSA_2"]
+        },
+        {
+          "id": "DSA_4",
+          "name": "Stack & Queue",
+          "hours_required": 7.71,
+          "pyqs": 29,
+          "prerequisites": ["DSA_1"]
+        },
+        {
+          "id": "DSA_5",
+          "name": "Binary Trees",
+          "hours_required": 8.0,
+          "pyqs": 53,
+          "prerequisites": ["DSA_4"]
+        },
+        {
+          "id": "DSA_6",
+          "name": "AVL Trees",
+          "hours_required": 5.18,
+          "pyqs": 4,
+          "prerequisites": ["DSA_5"]
+        },
+        {
+          "id": "DSA_7",
+          "name": "Binary Heap",
+          "hours_required": 8.85,
+          "pyqs": 29,
+          "prerequisites": ["DSA_6"]
+        },
+        {
+          "id": "DSA_8",
+          "name": "Hashing",
+          "hours_required": 4.63,
+          "pyqs": 16,
+          "prerequisites": ["DSA_7"]
+        },
+        {
+          "id": "DSA_9",
+          "name": "Row & Column Major",
+          "hours_required": 0.77,
+          "pyqs": 13,
+          "prerequisites": ["DSA_8"]
+        },
+        {
+          "id": "DSA_10",
+          "name": "More Live Sessions",
+          "hours_required": 6.15,
+          "pyqs": 6,
+          "prerequisites": ["DSA_9"]
+        }
+      ]
+    }
+  ]
+}
